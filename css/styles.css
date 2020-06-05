@@ -15,7 +15,7 @@ h1, h2, h3 {
   text-align: center;
   margin: auto;
   display: block;
-  padding: 0.5rem;
+  padding: 0.7rem;
 }
 
 .row {
@@ -45,7 +45,7 @@ h1, h2, h3 {
 
 /* Navigation Bar */
 .navbar {
-  padding: 0.5rem 0 0.5rem;
+  padding: 0.8rem 0 0.8rem;
   border-bottom: 1px solid #dbe2ef;
 }
 
@@ -58,7 +58,7 @@ h1, h2, h3 {
 }
 
 .nav-link {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: "Montserrat";
   font-weight: 400;
 }
@@ -110,7 +110,7 @@ h1, h2, h3 {
 
 .Projects-row {
   padding: 0;
-  margin: 0;
+  margin: 0 10% 0 10%;
 }
 
 .Projects-img {
@@ -144,8 +144,9 @@ h1, h2, h3 {
 
 /* Gallery */
 
-#Gallery .container-fluid {
-  padding: 7% 2%;
+#Gallery.container-fluid {
+  padding: 1%;
+  margin: 0;
 }
 
 .Gallery-row {
@@ -161,11 +162,13 @@ h1, h2, h3 {
   padding-bottom: 2rem;
 }
 
-.Gallery-img{
-  border-radius: 10px;
-  margin: 1rem 0 ;
-  width:350px;
-  height:350px;
+.Gallery-img img{
+  padding: 10px 0 10px 0 ;
+  transition: transform .8s, visibility .8s ease-in;
+}
+
+.Gallery-img:hover img {
+  transform: scale(1.05);
 }
 
 /* Footer */
@@ -176,6 +179,17 @@ h1, h2, h3 {
 
 .footer-img {
   padding: 10px 10px;
+  color: black;
+}
+
+.footer-img:hover {
+  transform: scale(1.5);
+  color: black;
+  text-decoration: none;
+}
+
+.copy-right{
+  margin-top: 10px;
 }
 
 @media (max-width:992px) {
