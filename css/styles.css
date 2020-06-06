@@ -116,7 +116,8 @@ h1, h2, h3 {
 .Projects-img {
   border: 2px solid #dbe2ef;
   border-radius: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .Projects-title {
