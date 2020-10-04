@@ -91,6 +91,13 @@ h1, h2, h3 {
   font-size: 1.1rem;
 }
 
+.introduction-location_and_date {
+  font-family: "Montserrat";
+  text-align: left;
+  font-size: 0.9rem;
+  margin-bottom: 0%;
+}
+
 .introduction-list-tab {
   font-family: "Montserrat";
   text-align: left;
