@@ -80,16 +80,22 @@
           <h4 class="introduction-title">Experience</h4>
           <ul>
             <li class="introduction-list"><b>Research Assistant</b>
-              <br><p class = "introduction-location_and_date"> in CAD/CAM lab at UBC, Vancouver, Canada
-              <br>(Sept 2018 - Ongoing)</p> </li>
-            <p class="introduction-list-tab"> Built the components recognition system for multi-axis machine tools
-            to export kinematic chain for machining simulation using C++ and OpenGL under Qt. </p>
+              <br>
+              <p class="introduction-location_and_date"> in CAD/CAM lab at UBC, Vancouver, Canada
+                <br>(Sept 2018 - Ongoing)</p>
+            </li>
+            <p class="introduction-list-tab"> Built a user-friendly component recognition system to export corresponding
+              kinematic chains of multi-axis machine tools for machining simulation in C++. </p>
             <li class="introduction-list"><b>President</b>
-            <br><p class="introduction-location_and_date"; style = "margin-bottom: 3%;">Taiwanese Graduate Student Association in Vancouver, Canada
-            <br>(Feb 2020 - Ongoing)</p></li>
+              <br>
+              <p class="introduction-location_and_date" ; style="margin-bottom: 3%;">Taiwanese Graduate Student Association in Vancouver, Canada
+                <br>(Feb 2020 - Ongoing)</p>
+            </li>
             <li class="introduction-list"><b>Teaching Assistant</b>
-            <br><p class="introduction-location_and_date">UBC, Vancouver, Canada
-            <br>(Feb 2020 - Ongoing)</p></li>
+              <br>
+              <p class="introduction-location_and_date">UBC, Vancouver, Canada
+                <br>(Feb 2020 - Ongoing)</p>
+            </li>
             <p class="introduction-list-tab">MECH 540A - Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation - SFTWR DSGN MECH</p>
           </ul>
           <h4 class="introduction-title">Computer Skills</h4>
@@ -97,7 +103,7 @@
             <li class="introduction-list">Programming Languages: </li>
             <p class="introduction-list-tab"> C++, Python, Java, HTML, CSS, Javascript, React, SQL, Matlab </p>
             <li class="introduction-list">Engineering Softwares:</li>
-            <p class="introduction-list-tab">Pytorch, Qt, Solidworks, NX, ANSYS-Structure, AutoCAD</p>
+            <p class="introduction-list-tab">Unity, Pytorch, Qt, Solidworks, NX, ANSYS-Fluent</p>
           </ul>
           <h4 class="introduction-title">Language Skills</h4>
           <ul>
@@ -107,8 +113,6 @@
       </div>
     </div>
   </section>
-
-
   <!-- Projects -->
 
   <section class="color-section" id="Projects">
@@ -118,16 +122,35 @@
 
       <div class="row Projects-row">
         <div class="col-lg-6">
+          <img class="Projects-img img-fluid" src="images/Voxel_MT.png" alt="My photo" style=width:300px height:300px>
+        </div>
+        <div class="col-lg-6">
+          <h4 class="Projects-title">Develop a user-friendly kienmatic chain exporter for multi-axis machine tools</h4>
+          <p class="Projects-time">Master's degree research
+            <br>(Jan 2020 — Apr 2020)</p>
+          <ul>
+            <li class="Projects-list">Built a user-friendly component recognition system to export corresponding kinematic chains of multi-axis machine tools for machining simulation in C++.
+            </li>
+            <li class="Projects-list">Constructed a collision detection algorithm using the voxelization that increased efficiency 20% for recognition validation of different multi-axis machine tool configurations.
+            </li>
+            <li class="Projects-list">Developed an environment to read assembly files of different configurations of machine tools and utilized OpenGL to simulate the motion of multi-axis machine tools according to the kinematic chain.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row Projects-row">
+        <div class="col-lg-6">
           <img class="Projects-img img-fluid" src="images/covid.jpg" alt="My photo" style=width:300px height:300px>
         </div>
         <div class="col-lg-6">
           <h4 class="Projects-title">Construct transfer learning model by pre-trained models for COVID-19 classifier</h4>
-          <p class="Projects-time">(Jan 2020 — Apr 2020)</p>
+          <p class="Projects-time">Final project of CPSC 340 Machine Learning and Data Mining
+            <br>(Jan 2020 — Apr 2020)</p>
           <ul>
-            <li class="Projects-list">Implemented transfer learning that use ResNet18 and VGG16 as pre-tained
-              models for constructing multi-class classifiesr by Pytorch to classify chest X-ray images into three classes; COVID-19, Pneumonia, and Normal.
+            <li class="Projects-list">Used Pytorch to Implement transfer learning that uses ResNet18 and VGG16 as pretrained models for constructing multi-class classifiers to classify chest X-ray images
+              into three classes; COVID-19, Pneumonia, and Normal.
             </li>
-            <li class="Projects-list">Got average classification accuracy of 90% using VGG16 with fine-tuning the last
+            <li class="Projects-list">Got 90% average classification accuracy using VGG16 with fine-tuning the last layer.
               layer</li>
           </ul>
         </div>
@@ -139,7 +162,8 @@
         </div>
         <div class="col-lg-6">
           <h4 class="Projects-title">Implement the Remesher and Complete Remesh for 10K-Triangles mesh within Reasonable Time </h4>
-          <p class="Projects-time">(March 2019 — Apr 2019)</p>
+          <p class="Projects-time">Final project of CPSC 524 Computer Graphics: Modelling
+            <br>(March 2019 — Apr 2019)</p>
           <ul>
             <li class="Projects-list">Iterated through geometry models for mesh refinement, edge collapse, edge flipping
               and smoothing to complete the remesh process with a user friendly API in C++.</li>
@@ -157,8 +181,12 @@
           </h4>
           <p class="Projects-time">(July 2017 — Jan 2018)</p>
           <ul>
-            <li class="Projects-list">Compared the differences between numerical and analytical solutions of the postprocess using CLSF from NX.</li>
-            <li class="Projects-list">Implemented a Virtual machining environment in JAVA to read G-Code to detect collisions for 5-axis machine tool designed in Solidworks.</li>
+            <li class="Projects-list">Cooperated with Tech Coordinate Co., Ltd to validate the postprocess that use the
+              company-developed numerical solution with the analytical solution derived from
+              coordinate transformations.</li>
+            <li class="Projects-list">Implemented a virtual machining environment in JAVA to read G-Code and CAD
+              models of 5-axis machine tools designed in Solidworks to detect collisions.
+            </li>
           </ul>
         </div>
       </div>
