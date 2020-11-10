@@ -66,48 +66,19 @@
 
   <section class="white-section" id="Introduction">
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" id="Introduction">
         <div class="col-lg-6">
           <img class="introduction-img img-fluid" src="images/MINSI SUNG.JPG" alt="My photo">
         </div>
         <div class="col-lg-6">
           <h4 class="introduction-title">Highlight of Myself</h4>
+          <div class="introduction-click">
+            <a class="introduction-title" href="about_me.html" style="font-size:1rem">(More about me and my resume)</a>
+          </div>
           <ul>
-            <li class="introduction-list">Software Engineer developing CAD/CAM software at UBC</li>
-            <li class="introduction-list">President of Taiwanese Graduate Student Association in Vancouver</li>
-            <li class="introduction-list">Phtographer focus on street photography using Fujifilm</li>
-          </ul>
-          <h4 class="introduction-title">Experience</h4>
-          <ul>
-            <li class="introduction-list"><b>Research Assistant</b>
-              <br>
-              <p class="introduction-location_and_date"> in CAD/CAM lab at UBC, Vancouver, Canada
-                <br>(Sept 2018 - Ongoing)</p>
-            </li>
-            <p class="introduction-list-tab"> Built a user-friendly component recognition system to export corresponding
-              kinematic chains of multi-axis machine tools for machining simulation in C++. </p>
-            <li class="introduction-list"><b>President</b>
-              <br>
-              <p class="introduction-location_and_date" ; style="margin-bottom: 3%;">Taiwanese Graduate Student Association in Vancouver, Canada
-                <br>(Feb 2020 - Ongoing)</p>
-            </li>
-            <li class="introduction-list"><b>Teaching Assistant</b>
-              <br>
-              <p class="introduction-location_and_date">UBC, Vancouver, Canada
-                <br>(Feb 2020 - Ongoing)</p>
-            </li>
-            <p class="introduction-list-tab">MECH 540A - Emerging Topics in Mechatronics, Manufacturing, Controls, and Automation - SFTWR DSGN MECH</p>
-          </ul>
-          <h4 class="introduction-title">Computer Skills</h4>
-          <ul>
-            <li class="introduction-list">Programming Languages: </li>
-            <p class="introduction-list-tab"> C++, Python, Java, HTML, CSS, Javascript, React, SQL, Matlab </p>
-            <li class="introduction-list">Engineering Softwares:</li>
-            <p class="introduction-list-tab">Unity, Pytorch, Qt, Solidworks, NX, ANSYS-Fluent</p>
-          </ul>
-          <h4 class="introduction-title">Language Skills</h4>
-          <ul>
-            <li class="introduction-list">Mandarin (Native), English, Korean</li>
+            <li class="introduction-list">A software Engineer developing CAD/CAM software at UBC</li>
+            <li class="introduction-list">The president of Taiwanese Graduate Student Association in Vancouver</li>
+            <li class="introduction-list">A phtographer focus on street photography using Fujifilm XT-1</li>
           </ul>
         </div>
       </div>
@@ -125,48 +96,52 @@
           <img class="Projects-img img-fluid" src="images/Voxel_MT.png" alt="My photo" style=width:300px height:300px>
         </div>
         <div class="col-lg-6">
-          <h4 class="Projects-title">Develop a user-friendly kienmatic chain exporter for multi-axis machine tools</h4>
+          <div class="project-click">
+            <a class="Projects-title" href="urdfExporter.html">Develop a user-friendly kienmatic chain exporter for multi-axis machine tools</a>
+          </div>
           <p class="Projects-time">Master's degree research
-            <br>(Jan 2020 — Apr 2020)</p>
-          <ul>
-            <li class="Projects-list">Built a user-friendly component recognition system to export corresponding kinematic chains of multi-axis machine tools for machining simulation in C++.
-            </li>
-            <li class="Projects-list">Constructed a collision detection algorithm using the voxelization that increased efficiency 20% for recognition validation of different multi-axis machine tool configurations.
-            </li>
-            <li class="Projects-list">Developed an environment to read assembly files of different configurations of machine tools and utilized OpenGL to simulate the motion of multi-axis machine tools according to the kinematic chain.</li>
-          </ul>
+            <br>(Jan 2020 — Present)</p>
         </div>
       </div>
 
       <div class="row Projects-row">
         <div class="col-lg-6">
-          <img class="Projects-img img-fluid" src="images/covid.jpg" alt="My photo" style=width:300px height:300px>
+          <img class="Projects-img img-fluid" src="images/covid.jpg" alt="My photo" style=width:250px height:250px>
         </div>
         <div class="col-lg-6">
-          <h4 class="Projects-title">Construct transfer learning model by pre-trained models for COVID-19 classifier</h4>
+          <div class="project-click">
+            <a class="Projects-title" href="transferLearning.html">Construct transfer learning model by pre-trained models for COVID-19 classifier</a>
+          </div>
           <p class="Projects-time">Final project of CPSC 340 Machine Learning and Data Mining
             <br>(Jan 2020 — Apr 2020)</p>
-          <ul>
-            <li class="Projects-list">Used Pytorch to Implement transfer learning that uses ResNet18 and VGG16 as pretrained models for constructing multi-class classifiers to classify chest X-ray images
-              into three classes; COVID-19, Pneumonia, and Normal.
-            </li>
-            <li class="Projects-list">Got 90% average classification accuracy using VGG16 with fine-tuning the last layer.
-              layer</li>
-          </ul>
         </div>
       </div>
 
       <div class="row Projects-row">
         <div class="col-lg-6">
-          <img class="Projects-img img-fluid" src="images/mesh.png" alt="My photo" style=width:300px;height:300px>
+          <img class="Projects-img img-fluid" src="images/mesh.png" alt="My photo" style=width:250px;height:250px>
         </div>
         <div class="col-lg-6">
-          <h4 class="Projects-title">Implement the Remesher and Complete Remesh for 10K-Triangles mesh within Reasonable Time </h4>
+          <div class="project-click">
+            <a class="Projects-title" href="resmesher.html">Implement the Remesher and Complete Remesh for 10K-Triangles mesh within Reasonable Time </a>
+          </div>
           <p class="Projects-time">Final project of CPSC 524 Computer Graphics: Modelling
             <br>(March 2019 — Apr 2019)</p>
-          <ul>
-            <li class="Projects-list">Iterated through geometry models for mesh refinement, edge collapse, edge flipping
-              and smoothing to complete the remesh process with a user friendly API in C++.</li>
+        </div>
+      </div>
+
+
+      <div class="row Projects-row">
+        <div class="col-lg-6">
+          <img class="Projects-img img-fluid" src="images/Machine-Tool.jpg" alt="My photo" style=width:250px;height:250px>
+        </div>
+        <div class="col-lg-6">
+          <div class="project-click">
+            <a class="Projects-title" href="postprocessor.html">Constructed a Virtual Machine Tool Environment and compared various postprocesses of a 5-Axis Machine Tool
+            </a>
+          </div>
+          <p class="Projects-time">Bachelor's degree research
+            <br>(July 2017 — Jan 2018)</p>
           </ul>
         </div>
       </div>
@@ -174,67 +149,38 @@
 
       <div class="row Projects-row">
         <div class="col-lg-6">
-          <img class="Projects-img img-fluid" src="images/Machine-Tool.jpg" alt="My photo" style=width:300px;height:300px>
+          <img class="Projects-img img-fluid" src="images/Multi-Terrain Robot.jpg" alt="My photo" style=width:250px;height:250px>
         </div>
         <div class="col-lg-6">
-          <h4 class="Projects-title">Constructed a Virtual Machine Tool Environment and compared various postprocesses of a 5-Axis Machine Tool
-          </h4>
-          <p class="Projects-time">(July 2017 — Jan 2018)</p>
-          <ul>
-            <li class="Projects-list">Cooperated with Tech Coordinate Co., Ltd to validate the postprocess that use the
-              company-developed numerical solution with the analytical solution derived from
-              coordinate transformations.</li>
-            <li class="Projects-list">Implemented a virtual machining environment in JAVA to read G-Code and CAD
-              models of 5-axis machine tools designed in Solidworks to detect collisions.
-            </li>
-          </ul>
-        </div>
-      </div>
-
-
-      <div class="row Projects-row">
-        <div class="col-lg-6">
-          <img class="Projects-img img-fluid" src="images/Multi-Terrain Robot.jpg" alt="My photo" style=width:300px;height:300px>
-        </div>
-        <div class="col-lg-6">
-          <h4 class="Projects-title">Multi-Terrain Robot</h4>
+          <div class="project-click">
+            <a class="Projects-title" href="robot.html">Multi-Terrain Remote Controled Robot</a>
+          </div>
           <p class="Projects-time">(Feb 2016 — July 2016)</p>
-          <ul>
-            <li class="Projects-list">Constructed a multi-foot remote control robot that was required to negotiate
-              multiple terrain types, including long grass, sand and hill and rock.</li>
-            <li class="Projects-list"> It involved in machining raw materials
-              (Acrylic and Aluminum Sheet) with manufacturing processes (lathing and milling)
-              by using Wire Electrical Discharge Machine, CNC station, and 3-D printer.</li>
-          </ul>
         </div>
       </div>
 
       <div class="row Projects-row">
         <div class="col-lg-6">
-          <img class="Projects-img img-fluid" src="images/hype air purifier.jpg" alt="My photo" style=width:300px;height:300px>
+          <img class="Projects-img img-fluid" src="images/hype air purifier.jpg" alt="My photo" style=width:250px;height:250px>
         </div>
         <div class="col-lg-6">
-          <h4 class="Projects-title">Development of a Window Mounted HEPA Ventilation Unit</h4>
-          <p class="Projects-time">(Feb 2016 — July 2016)</p>
-          <ul>
-            <li class="Projects-list">Contacted with many related companies for finding related products and completed a market survey.</li>
-            <li class="Projects-list">Created the CAD model (in Solidworks) first, and then constructed a Real prototype.</li>
-          </ul>
+          <div class="project-click">
+            <a class="Projects-title" href="ventilationUnit.html">Development of a Window Mounted HEPA Ventilation Unit</a>
+          </div>
+          <p class="Projects-time">Bachelor's degree research
+            <br>(Feb 2016 — July 2016)</p>
         </div>
       </div>
 
       <div class="row Projects-row">
         <div class="col-lg-6">
-          <img class="Projects-img img-fluid" src="images/RTI.jpg" alt="My photo" style=width:300px;height:300px>
+          <img class="Projects-img img-fluid" src="images/RTI.jpg" alt="My photo" style=width:250px;height:250px>
         </div>
         <div class="col-lg-6">
-          <h4 class="Projects-title">Radiant Tube Insert (RTI) Simulation and Analysis Project </h4>
+          <div class="project-click">
+            <a class="Projects-title" href="RTI.html">Radiant Tube Insert (RTI) Simulation and Analysis Project </a>
+          </div>
           <p class="Projects-time">(Feb 2016 — July 2016)</p>
-          <ul>
-            <li class="Projects-list">Redesigned and simulated RTI to gain 10 % increase in heat efficiency. This required the development of CAD models (in Solidworks) and performing analysis with ANSYSFluent.
-            </li>
-            <li class="Projects-list">Performed the project in cooperation with the China Steel Co.</li>
-          </ul>
         </div>
       </div>
     </div>

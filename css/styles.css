@@ -19,8 +19,8 @@ h1, h2, h3 {
 }
 
 .row {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .gif {
@@ -68,14 +68,21 @@ h1, h2, h3 {
   border: 2px solid #dbe2ef;
   border-radius: 20px;
   margin: auto;
-  margin-top: 15%;
+  margin-top: 2%;
   margin-bottom: 3%
-  margin-left:15%;
-  margin-right: 15%
+  margin-left:5%;
+  margin-right: 10%;
+  max-width: 60%;
+  max-length: 60%;
 }
 
 #Introduction.container-fluid {
-  padding: 5% 2%;
+  padding: 2% 2%;
+}
+
+#Introduction.row {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .introduction-title {
@@ -83,6 +90,16 @@ h1, h2, h3 {
   text-align: left;
   font-size: 1.3rem;
   font-weight: 600;
+  margin-top: 5%;
+  color: black;
+}
+
+.introduction-click {
+  font-family: "Montserrat";
+  text-align: left;
+  font-size: 1.1rem;
+  margin-bottom: 5%;
+  color: black;
 }
 
 .introduction-list {
@@ -114,6 +131,16 @@ h1, h2, h3 {
   padding-bottom: 2rem;
 }
 
+.project-click {
+  font-family: "Montserrat";
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 0;
+  color: black;
+}
+
 #Projects.container-fluid {
   padding: 0;
   margin: 0;
@@ -136,8 +163,9 @@ h1, h2, h3 {
   text-align: left;
   font-size: 1.2rem;
   font-weight: 600;
-  padding-top: 0.7rem;
+  padding-top: 2rem;
   margin-bottom: 0;
+  color: black;
 }
 
 .Projects-time {
@@ -221,4 +249,18 @@ h1, h2, h3 {
     heigh: 300px;
     width: 300px;
   }
+}
+
+#newPage.container-fluid {
+  padding: 2rem 10%;
+}
+
+.pdf-click {
+  font-family: "Montserrat";
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-top: 0rem;
+  margin-bottom: 0;
+  color: black;
 }
